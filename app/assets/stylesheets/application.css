@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+.letter-box {
+  min-width: 64px;
+  min-height: 64px;
+  background-color: rgb(72, 141, 197);
+  color:white;
+  font-size: 32px;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin: 8px;
+  text-align: center;
+  line-height: 64px;
+  border: solid rgb(99, 99, 99) 1px;
+  box-shadow: 4px 4px 8px 0px lightgray;
+}
+
+.letter-array {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.playing-field * {
+  margin-bottom: 16px;
+}
+
+.playing-field {
+  margin-top: 16px;
+}
